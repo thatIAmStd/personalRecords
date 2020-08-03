@@ -96,7 +96,7 @@
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
-            <version>5.1.6</version>
+            <version>8.0.20</version>
         </dependency>
 
         <dependency>
@@ -195,6 +195,22 @@
             <artifactId>jackson-dataformat-avro</artifactId>
             <version>2.6.7</version>
         </dependency>
+
+<!--                        crew数据库文档生成软件                              -->
+        <!--数据库文档核心依赖-->
+        <dependency>
+            <groupId>cn.smallbun.screw</groupId>
+            <artifactId>screw-core</artifactId>
+            <version>1.0.3</version>
+        </dependency>
+        <!-- HikariCP -->
+        <dependency>
+            <groupId>com.zaxxer</groupId>
+            <artifactId>HikariCP</artifactId>
+            <version>3.4.5</version>
+        </dependency>
+<!--                      crew数据库文档生成软件                              -->
+
 
     </dependencies>
 
