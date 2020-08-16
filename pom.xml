@@ -31,10 +31,25 @@
         </dependency>
 
         <dependency>
+            <groupId>org.springframework.webflow</groupId>
+            <artifactId>spring-webflow</artifactId>
+            <version>2.5.1.RELEASE</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/com.sun.faces/jsf-api -->
+        <dependency>
+            <groupId>com.sun.faces</groupId>
+            <artifactId>jsf-api</artifactId>
+            <version>2.2.20</version>
+        </dependency>
+
+
+        <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
             <scope>runtime</scope>
         </dependency>
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
@@ -47,7 +62,6 @@
             </exclusions>
         </dependency>
 
-
         <dependency>
             <groupId>org.aspectj</groupId>
             <artifactId>aspectjweaver</artifactId>
@@ -59,6 +73,7 @@
             <artifactId>mybatis-spring</artifactId>
             <version>${org.mybatis.spring.version}</version>
         </dependency>
+
         <dependency>
             <groupId>org.mybatis</groupId>
             <artifactId>mybatis</artifactId>
@@ -84,13 +99,13 @@
             <!--<scope>runtime</scope>-->
         </dependency>
 
-
         <dependency>
             <groupId>ch.qos.logback</groupId>
             <artifactId>logback-classic</artifactId>
             <version>1.1.2</version>
             <scope>compile</scope>
         </dependency>
+
         <dependency>
             <groupId>ch.qos.logback</groupId>
             <artifactId>logback-core</artifactId>
@@ -110,13 +125,11 @@
             <version>20.0</version>
         </dependency>
 
-
         <dependency>
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-lang3</artifactId>
             <version>3.5</version>
         </dependency>
-
 
         <dependency>
             <groupId>commons-collections</groupId>
@@ -201,7 +214,7 @@
             <version>2.6.7</version>
         </dependency>
 
-<!--                        crew数据库文档生成软件                              -->
+        <!--                        crew数据库文档生成软件                              -->
         <!--数据库文档核心依赖-->
         <dependency>
             <groupId>cn.smallbun.screw</groupId>
@@ -214,7 +227,7 @@
             <artifactId>HikariCP</artifactId>
             <version>3.4.5</version>
         </dependency>
-<!--                      crew数据库文档生成软件                              -->
+        <!--                      crew数据库文档生成软件                              -->
 
 
         <!-- https://mvnrepository.com/artifact/org.springframework/spring-jdbc -->
