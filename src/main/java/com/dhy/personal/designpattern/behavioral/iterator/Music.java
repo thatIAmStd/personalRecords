@@ -18,7 +18,7 @@ public class Music {
 
     @Override
     public String toString() {
-        return "Music{" +
+        return "BaseMusic{" +
                 "name='" + name + '\'' +
                 '}';
     }
